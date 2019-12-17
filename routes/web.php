@@ -17,6 +17,9 @@ Route::get('/', function () {
 Route::get('/base', function () {
     return view('base');
 });
+Route::get('/info', function () {
+    return view('info');
+});
 
 // Route::get('/jobs', 'JobsController');
 // Route::get('/employees', 'EmployeesController');

@@ -81,12 +81,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    afidarindy
+                    Afida Rindy Annisa
                 </div>
-
+                18/431729/SV/15700
                 <div class="links">
-                    <!-- ganti url dengan link github anda -->
-                    <a href="https://github.com/afidarindy/responsi-web2-15700.git">GitHub</a>
+                   
                 </div>
             </div>
         </div>
