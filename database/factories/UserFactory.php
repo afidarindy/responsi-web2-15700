@@ -31,6 +31,22 @@ $factory->define(User::class, function (Faker $faker) {
 //  factory jobs
 //  kolom 'name' => faker->jobTitle
 
+$factory->define(Jobs::class, function (Faker $faker) {
+    return [
+        'name' => $faker->jobTitle,
+    ];
+});
+
+$factory->define(Employees::class, function (Faker $faker) {
+    return [
+        'id_jobs' => $faker->numberBetween(1,10),
+        'name' => $faker->name,
+        'email' => $faker->email,
+        'phone' => $faker->phoneNumber,
+        'address' => $faker->address,
+    ];
+});
+
 //  factory employees
 //  kolom 'id_jobs' => faker->numberBetween() numberBetween adalah id_jobs minimal dan id_jobs maksimal yang ada pada tabel jobs
 //  kolom 'name' => faker->name
